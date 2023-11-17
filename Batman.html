@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="batman.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="login.jpg">
+        </div>
+        <div class="login-container">
+            <div class="login-form">
+                <img src="batman.png" id="logo">
+                <form name="login-form" action="" method="POST" class="login-form"> 
+                    <h2>Log In</h2>
+                    <span>Username/E-Mail</span>
+                    <input type="text" name="username" placeholder="Username/E-Mail" required>
+                    <span>Password</span>
+                    <input type="password" name="password" placeholder="Enter your password" required>
+                    <div id="remember-me">
+                        <input type="checkbox" name="remember-me">Remember Me
+                        <a href="#" id="forgot-password">Forgot password?</a>
+                    </div>
+                    <br><input type="submit" name="submit" value="Login">
+                    <div id="register">
+                        <span id="register">Don't have an account? <a href="signup.html">Sign Up</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

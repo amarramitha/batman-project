@@ -1,0 +1,116 @@
+@font-face {
+    font-family: IrishGrover-Regular;
+    src: url(Irish_Grover/IrishGrover-Regular.ttf);
+}
+
+body {
+    font-family: IrishGrover-Regular;
+    color: #FFEE32;
+    margin: 0;
+    padding: 0; 
+    height: auto;
+    /* overflow: hidden; */
+}
+.container {
+    display: flex;
+}
+.login-container {
+    display: flex;
+    background: #000;
+    width: 50%;
+    height: 100vh;
+    /* justify-content: center;
+    align-items: center; */
+}
+.image-container {
+    width: 50%;
+    height: auto;
+}
+.image-container img {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+#logo{
+    width: 303px;
+    height: 146px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.login-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background: black;
+}
+
+.login-form h2 {
+    color: #FFEE32;
+    text-align: center;
+    font-family: Irish Grover;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-form span {
+    display: block;
+    margin-bottom: 15px;
+    color: #FFEE32;
+    font-size: 28px;
+    font-family: IrishGrover-Regular;
+}
+
+.login-form input[type="text"], input[type="password"] {
+    width: 420px;
+    height: 43px;
+    padding: 13px, 10px, 13px, 10px;
+    margin-bottom: 15;
+    box-sizing: border-box;
+    background-color: black;
+    color: #FFEE32;
+    border: 1px solid #ddd;
+    gap: 13px;
+    max-width: 100%;
+    font-family: IrishGrover-Regular;
+}
+
+#remember-me {
+    margin: 5px 0;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+#remember-me input[type="checkbox"] {
+    width: 30px;
+    height: 15px;
+    margin-right: 3px;
+    size: 12px;
+}
+
+#forgot-password {
+    font-size: 12px;
+    margin-left: 200px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #FFA500; /* Batman's utility belt yellow */
+    color: black;
+    cursor: pointer;
+    font-family: IrishGrover-Regular;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #FFD700; /* Lighter yellow on hover */
+}
+
+#register {
+    font-size: 12px;
+    text-align: center;
+}

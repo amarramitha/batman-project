@@ -14,30 +14,30 @@ body {
 .container {
     display: flex;
 }
-.login-container {
+.signup-container {
     display: flex;
     background: #000;
     width: 50%;
-    height: 100vh;
+    height: 1024px;
     /* justify-content: center;
     align-items: center; */
 }
 .image-container {
-    width: 50%;
+    width: 814px;
     height: auto;
 }
 .image-container img {
-    width: 100%;
-    height: 100vh;
+    width: 814px;
+    height: 1024px;
     box-sizing: border-box;
 }
 #logo{
     width: 303px;
     height: 146px;
     margin-bottom: 20px;
-    margin-top: 50px;
+    
 }
-.login-form {
+.signup-form {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -47,27 +47,32 @@ body {
     background: black;
 }
 
-.login-form h2 {
+.signup-form h2 {
     color: #FFEE32;
     text-align: center;
-    font-family: Irish Grover;
+    font-family: IrishGrover-Regular;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-.login-form span {
-    display: block;
+.signup-form span {
+    /* display: block; */
     margin-bottom: 15px;
     color: #FFEE32;
-    font-size: 28px;
+    font-size: 32px;
     font-family: IrishGrover-Regular;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-style: normal;
+    line-height: normal;
+    text-align: left;
 }
 
-.login-form input[type="text"], input[type="password"] {
+.signup-form input[type="text"], input[type="password"], input[type="email"] {
     width: 420px;
     height: 43px;
     padding: 13px, 10px, 13px, 10px;
@@ -75,42 +80,37 @@ body {
     box-sizing: border-box;
     background-color: black;
     color: #FFEE32;
-    border: 1px solid #ddd;
+    border: 1px solid #FFEE32;
     gap: 13px;
     max-width: 100%;
     font-family: IrishGrover-Regular;
 }
 
-#remember-me {
-    margin: 5px 0;
-    font-size: 12px;
-    text-decoration: none;
-    color: white;
-}
-#remember-me input[type="checkbox"] {
-    width: 30px;
-    height: 15px;
-    margin-right: 3px;
-    size: 12px;
-}
-
-#forgot-password {
-    font-size: 12px;
-    margin-left: 200px;
-}
-
-.login-form input[type="submit"] {
-    background-color: #FFA500; /* Batman's utility belt yellow */
+.signup-form input[type="submit"] {
+    background-color: #FFEE32; 
     color: black;
     cursor: pointer;
     font-family: IrishGrover-Regular;
+    font-size: 18px;
+    width: 420px;
+    height: 43px;
+    padding: 13px, 10px, 13px, 10px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
 }
 
-.login-form input[type="submit"]:hover {
-    background-color: #FFD700; /* Lighter yellow on hover */
-}
+/* .login-form input[type="submit"]:hover {
+    background-color: #FFD700; /* Lighter yellow on hover
+} */
 
-#register {
-    font-size: 12px;
+#have-account {
+    margin-top: 10px;
+    font-size: 18px;
     text-align: center;
+    color: white;
+}
+
+a {
+    color: #FFEE32;
 }

@@ -1,0 +1,135 @@
+@font-face {
+    font-family: IrishGrover-Regular;
+    src: url(Irish_Grover/IrishGrover-Regular.ttf);
+}
+
+body {
+    font-family: IrishGrover-Regular;
+    color: #FFEE32;
+    margin: 0;
+    padding: 0; 
+    height: auto;
+    /* overflow: hidden; */
+}
+.container {
+    display: flex;
+}
+.login-container {
+    display: flex;
+    background: #000;
+    width: 626px;
+    height: 1024px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.image-container {
+    width: 814px;
+    height: auto;
+}
+.image-container img {
+    width: 814px;
+    height: 1024px;
+    box-sizing: border-box;
+}
+#logo{
+    width: 303px;
+    height: 146px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.login-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    box-sizing: border-box;
+    background: black;
+}
+
+.login-form h2 {
+    color: #FFEE32;
+    text-align: center;
+    font-family: IrishGrover-Regular;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.login-form span {
+    /* display: block; */
+    margin-bottom: 15px;
+    color: #FFEE32;
+    font-size: 32px;
+    font-family: IrishGrover-Regular;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-style: normal;
+}
+
+.login-form input[type="text"], input[type="password"] {
+    width: 420px;
+    height: 43px;
+    padding: 13px 10px;
+    margin-bottom: 15;
+    box-sizing: border-box;
+    background-color: black;
+    color: #FFEE32;
+    border: 1px solid #FFEE32;
+    gap: 13px;
+    max-width: 100%;
+    font-family: IrishGrover-Regular;
+}
+
+#remember-me {
+    margin: 5px 0;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+#remember-me input[type="checkbox"] {
+    width: 30px;
+    height: 15px;
+    margin-right: 3px;
+    size: 12px;
+}
+
+#forgot-password {
+    font-size: 12px;
+    margin-left: 200px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #FFEE32; 
+    color: black;
+    cursor: pointer;
+    font-family: IrishGrover-Regular;
+    font-size: 18px;
+    width: 420px;
+    height: 47px;
+    padding: 13px, 10px, 13px, 10px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+
+/* .login-form input[type="submit"]:hover {
+    background-color: #FFD700; /* Lighter yellow on hover
+} */
+
+#register {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+a {
+    color: #FFEE32;
+}

@@ -49,9 +49,9 @@ h2{
     font-family: IrishGrover-Regular;
 }
 
-.isi-message span {
+.isi-message button {
     width: 1222px;
-    height: 68px;
+    height: 70px;
     padding: 13px 10px 12px 10px;
     gap: 13px;
     flex-shrink: 0;
@@ -63,4 +63,5 @@ h2{
     font-weight: 400;
     line-height: normal;
     margin-bottom: 30px;
+    font-family: IrishGrover-Regular;
 }

@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Profile</title>
     <link rel="stylesheet" href="editprofile.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var editForm = document.forms['edit-form'];
+
+            editForm.addEventListener('submit', function (event) {
+                event.preventDefault(); // Prevent the form from submitting
+
+                // Check which button was clicked
+                var submitButton = event.submitter;
+                if (submitButton.name === 'submit') {
+                    alert("Profile changed successfully");
+                    window.location.href = "profile.html";
+                } else if (submitButton.name === 'cancel') {
+                    window.location.href = "profile.html";
+                }
+            });
+        });
+    </script>
 </head>
 <body>
     
@@ -14,8 +32,31 @@
             <h2>Edit Profile</h2>
         </div>
         <div class="edit-container">
+            <form action="" name="edit-form" method="POST" class="edit-form">
+            <img src="profile.png">
+            <table>
+                <tr>
+                    <td id="kolom1">Username</td>
+                    <td><input type="text" name="username"></td>
+                </tr>
+                <tr>
+                    <td id="kolom1">E-Mail</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td id="kolom1">Bio</td>
+                    <td><input type="text" name="bio"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="cancel" value="cancel">
+                        <input type="submit" name="submit" value="Save"></td>
+                </tr>
+            </table>
+        </form>
             
-        <form name="edit-form" action="" method="POST" class="edit-form">
+        <!-- <form name="edit-form" action="" method="POST" class="edit-form">
             <img src="profile.png">
             <span>Username</span>
             <input type="text" name="username">
@@ -23,10 +64,10 @@
             <input type="email" name="email">
             <span>Bio</span>
             <input type="text" name="bio">
-            <!-- <div class="button"> -->
+             <div class="button"> 
                 <br><input type="submit" name="cancel" value="Cancel">
                 <input type="submit" name="submit" value="Save">
-        </form>
+        </form> -->
         </div>
     
     </div>

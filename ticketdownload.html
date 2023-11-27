@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation</title>
+    <link rel="stylesheet" href="invitation.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="invitation-ticket.png" id="invitationImage">
+        </div>
+        <button id="downloadButton" onclick="downloadImage()">Download</button>
+    </div>
+    <script>
+        function downloadImage() {
+            // Mendapatkan elemen gambar
+            var imgElement = document.getElementById('invitationImage');
+
+            // Membuat elemen <a> untuk menetapkan properti download
+            var link = document.createElement('a');
+            link.href = imgElement.src;
+            link.download = 'invitation-ticket.png';
+
+            // Menyembunyikan elemen <a> dan mengekliknya
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+</html>

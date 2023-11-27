@@ -2,14 +2,25 @@
 <html>
 
 <head>
-    <title>Login</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="signup.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var signUpForm = document.forms['signup-form'];
+
+            signUpForm.addEventListener('submit', function (event) {
+                event.preventDefault(); 
+                alert("Account created");
+                window.location.href = "login.html";
+            });
+        });
+    </script>
 </head>
 
 <body>
     <div class="container">
         <div class="image-container">
-            <img src="Rectangle 1.png">
+            <img src="Rectangle 2.png">
         </div>
         <div class="signup-container">
             <div class="signup-form">

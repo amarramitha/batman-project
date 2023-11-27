@@ -13,12 +13,20 @@
             <h2>Message</h2>
         </div>
         <div class="isi-message">
-            <span>Showroom 1 sent you an invitation!</span>
-            <span>Showroom 2 sent you an invitation!</span>
-            <span>Showroom 3 sent you an invitation!</span>
-            <span>Showroom 4 sent you an invitation!</span>
-            <span>Showroom 5 sent you an invitation!</span>
-            <span>Showroom 6 sent you an invitation!</span>
+            <button onclick="redirectToTicketDownload('1')">Showroom 1 sent you an invitation!</button>
+            <button onclick="redirectToTicketDownload('2')">Showroom 2 sent you an invitation!</button>
+            <button onclick="redirectToTicketDownload('3')">Showroom 3 sent you an invitation!</button>
+            <button onclick="redirectToTicketDownload('4')">Showroom 4 sent you an invitation!</button>
+            <button onclick="redirectToTicketDownload('5')">Showroom 5 sent you an invitation!</button>
+            <button onclick="redirectToTicketDownload('6')">Showroom 6 sent you an invitation!</button>
         </div>
+
+        <script>
+            function redirectToTicketDownload(showroomId) {
+                // Mengarahkan pengguna ke halaman "ticketdownload.html" dengan parameter showroomId
+                window.location.href = 'ticketdownload.html?showroomId=' + showroomId;
+            }
+        </script>
+    </div>
 </body>
 </html>

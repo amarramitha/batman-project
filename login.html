@@ -4,6 +4,19 @@
 <head>
     <title>Login</title>
     <link rel="stylesheet" href="login.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var loginForm = document.forms['login-form'];
+
+            loginForm.addEventListener('submit', function (event) {
+                event.preventDefault(); 
+
+                // Here, you can perform login authentication if needed
+
+                window.location.href = "profile.html";
+            });
+        });
+    </script>
 </head>
 
 <body>

@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="profile.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var editForm = document.forms['user-profile'];
+
+            editForm.addEventListener('submit', function () {
+                event.preventDefault(); 
+                window.location.href = "editprofile.html";
+            });
+        });
+    </script>
+
 </head>
 <body>
     <div class="profile-container">
@@ -14,11 +25,28 @@
             <a href="message.html"><img name="logo-message" src="messeage2.png"></a>
         </div>
         <div class="isi-container">
-            <form name="isi-container" action="" method="POST" class="isi-container">
+            <!-- <form name="isi-container" action="" method="POST" class="isi-container"> -->
                 <img src="profile.png">
-                <input type="submit" name="edit-profile" value="Edit Profile">
-            </form>
+                <form name="user-profile" action="" method="POST" class="user-profile">
+                    <span>Riflex</span>
+                    <span>praktikum@pemweb.com</span>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque illo, id repellat ipsa dolorem vitae porro tenetur quasi beatae, ipsum dolores quas nisi amet! Explicabo, nulla! Porro quaerat quia optio.</span>
+                    <!-- <input type="text" name="username" id="username" value="Riflex" default>
+            
+                    <input type="email" name="email" id="email" value="praktikum@pemweb.com" default>
+            
+                    <input type="text" name="bio" id="bio" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua." default> -->
 
+                    <input type="submit" name="edit-profile" value="Edit Profile">
+            
+                </form>
+                <!-- <input type="text" name="username" value="Riflex">
+                <input type="email" name="email" value="praktikum@pemweb.com">
+                <span>Bio : </span>
+                <input type="text" name="bio" value=""> -->
+                
+            <!-- </form> -->
         </div>
     </div>
 </body>

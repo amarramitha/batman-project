@@ -58,7 +58,37 @@ h2{
     font-family: IrishGrover-Regular;
 }
 
-.isi-container input[type="submit"]{
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: #FFEE32;
+}
+
+/* .isi-container span {
+    font-size: 32px;
+    text-align: center;
+} */
+
+.user-profile span{
+    color: #FFEE32;
+    width: 938px;
+    height: 117px;
+text-align: center;
+font-family: IrishGrover-Regular;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: black;
+margin-top: 20px;
+border: 1px solid black;
+text-align: center;
+}
+
+.user-profile input[type="submit"]{
     width: 420px;
     height: auto;
     padding: 13px 10px 12px 10px;
@@ -72,5 +102,5 @@ h2{
     background-color: #FFEE32;
     color: black;
     font-size: 24px;
-    margin-top: 500px;
+    margin-top: 300px;
 }

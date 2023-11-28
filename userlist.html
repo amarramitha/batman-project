@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+        <div class="container">
+            <div id="logo">
+                <img src="batman.png">
+                <h2>User List</h2>
+            </div>
+            <div class="list-container">
+                    <table border="1">
+                        <tr>
+                            <th>Email</th>
+                            <th>Username</th>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox">user1@pemweb.com</td>
+                            <td>user1</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox">user2@pemweb.com</td>
+                            <td>user2</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox">user3@pemweb.com</td>
+                            <td>user3</td>
+                        </tr>
+                    </table>  
+            </div>
+            <button onclick="sendInvite()">Send Invite</button>
+            <script>
+                function sendInvite() {
+                    alert("The invitation has been sent");
+                }
+            </script>
+        </div>
+
+    
+</body>
+</html>

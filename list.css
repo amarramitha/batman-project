@@ -1,0 +1,96 @@
+@font-face {
+    font-family: IrishGrover-Regular;
+    src: url(Irish_Grover/IrishGrover-Regular.ttf);
+}
+
+body {
+    font-family: IrishGrover-Regular;
+    color: #FFEE32;
+    margin: 0;
+    padding: 0; 
+    height: auto;
+    background: black;
+}
+
+/* .container {
+    font-family: IrishGrover-Regular;
+    color: #FFEE32;
+    background: black;
+} */
+
+.container {
+    width: auto;
+    height: 1024px;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 313px;
+    height: 146px;
+    flex-shrink: 0;
+    display: flex;
+    margin-top: 33px;
+    margin-left: 38px;
+}
+
+h2{
+    color: #FFEE32;
+    text-align: center;
+    font-family: IrishGrover-Regular;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 408px;
+    height: 63px;
+    flex-shrink: 0;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    margin-top: 50px;
+    width: 1232px;
+    height: 494px;
+    border: 1px solid #FFEE32;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+
+table td{
+    color: white;
+    text-align: center;
+}
+
+table input[type="checkbox"]{
+    width: 35px;
+    height: 30px;
+    flex-shrink: 0;
+    fill: #FFEE32;
+    margin-right: 20px;
+}
+
+.container button {
+    display: flex;
+    margin: 0 auto;
+    width: 420px;
+    height: 47px;
+    padding: 13px 10px 12px 10px;
+    background: #FFEE32;
+    color: black;
+    font-family: IrishGrover-Regular;
+    font-size: 18px;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

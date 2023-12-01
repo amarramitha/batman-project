@@ -13,18 +13,32 @@
             <h2>Message</h2>
         </div>
         <div class="isi-message">
-            <button onclick="redirectToTicketDownload('1')">Showroom 1 sent you an invitation!</button>
-            <button onclick="redirectToTicketDownload('2')">Showroom 2 sent you an invitation!</button>
-            <button onclick="redirectToTicketDownload('3')">Showroom 3 sent you an invitation!</button>
-            <button onclick="redirectToTicketDownload('4')">Showroom 4 sent you an invitation!</button>
-            <button onclick="redirectToTicketDownload('5')">Showroom 5 sent you an invitation!</button>
-            <button onclick="redirectToTicketDownload('6')">Showroom 6 sent you an invitation!</button>
+            <button onclick="showroom1()">Showroom 1 sent you an invitation!</button>
+            <button onclick="showroom2()">Showroom 2 sent you an invitation!</button>
+            <button onclick="showroom3()">Showroom 3 sent you an invitation!</button>
+            <button onclick="showroom4()">Showroom 4 sent you an invitation!</button>
+            <button onclick="showroom5()">Showroom 5 sent you an invitation!</button>
+            <button onclick="showroom6()">Showroom 6 sent you an invitation!</button>
         </div>
 
         <script>
-            function redirectToTicketDownload(showroomId) {
-                // Mengarahkan pengguna ke halaman "ticketdownload.html" dengan parameter showroomId
-                window.location.href = 'ticketdownload.html?showroomId=' + showroomId;
+            function showroom1() {
+                window.location.href = 'showroom1.html';
+            }
+            function showroom2() {
+                window.location.href = 'showroom2.html';
+            }
+            function showroom3() {
+                window.location.href = 'showroom3.html';
+            }
+            function showroom4() {
+                window.location.href = 'showroom4.html';
+            }
+            function showroom5() {
+                window.location.href = 'showroom5.html';
+            }
+            function showroom6() {
+                window.location.href = 'showroom6.html';
             }
         </script>
     </div>

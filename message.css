@@ -1,67 +1,67 @@
 @font-face {
-    font-family: IrishGrover-Regular;
-    src: url(Irish_Grover/IrishGrover-Regular.ttf);
+  font-family: IrishGrover-Regular;
+  src: url(Irish_Grover/IrishGrover-Regular.ttf);
 }
 
 body {
-    font-family: IrishGrover-Regular;
-    color: #FFEE32;
-    margin: 0;
-    padding: 0; 
-    height: auto;
-    background: black;
+  font-family: IrishGrover-Regular;
+  color: #ffee32;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  background: black;
 }
 
 .message-container {
-    width: auto;
-    height: 1024px;
+  width: auto;
+  height: 100vh;
 }
 
 #logo {
-    width: 313px;
-    height: 146px;
-    flex-shrink: 0;
-    display: flex;
-    margin-top: 33px;
-    margin-left: 38px;
+  height: 100px;
+  flex-shrink: 0;
+  display: flex;
+  margin-top: 33px;
+  margin-left: 38px;
 }
 
-h2{
-    color: #FFEE32;
-    text-align: center;
-    font-family: IrishGrover-Regular;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 308px;
-    height: 63px;
-    flex-shrink: 0;
+h2 {
+  color: #ffee32;
+  text-align: center;
+  font-family: IrishGrover-Regular;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 308px;
+  height: 63px;
+  flex-shrink: 0;
 }
 
 .isi-message {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 90px;
-    font-family: IrishGrover-Regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 4rem;
+  font-family: IrishGrover-Regular;
 }
 
-.isi-message button {
-    width: 1222px;
-    height: 70px;
-    padding: 13px 10px 12px 10px;
-    gap: 13px;
-    flex-shrink: 0;
-    border-radius: 6px;
-    background: #FFEE32;
-    color: black;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 30px;
-    font-family: IrishGrover-Regular;
+a {
+  text-align: center;
+  text-decoration: none;
+  width: 80%;
+  padding: 10px 5px;
+  gap: 13px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #ffee32;
+  color: black;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+  font-family: IrishGrover-Regular;
 }

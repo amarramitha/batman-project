@@ -1,106 +1,98 @@
 @font-face {
-    font-family: IrishGrover-Regular;
-    src: url(Irish_Grover/IrishGrover-Regular.ttf);
+  font-family: IrishGrover-Regular;
+  src: url(Irish_Grover/IrishGrover-Regular.ttf);
 }
 
 body {
-    font-family: IrishGrover-Regular;
-    color: #FFEE32;
-    margin: 0;
-    padding: 0; 
-    height: auto;
-    background: black;
+  font-family: IrishGrover-Regular;
+  color: #ffee32;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  background: black;
 }
 
 .profile-container {
-    width: auto;
-    height: 1024px;
+  width: auto;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #logo {
-    width: 313px;
-    height: 146px;
-    flex-shrink: 0;
-    display: flex;
-    margin-top: 33px;
-    margin-left: 38px;
+  height: 100px;
+  flex-shrink: 0;
+  display: flex;
+  margin-top: 33px;
+  margin-left: 38px;
 }
 
-h2{
-    color: #FFEE32;
-    text-align: center;
-    font-family: IrishGrover-Regular;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 308px;
-    height: 63px;
-    flex-shrink: 0;
+h2 {
+  color: #ffee32;
+  text-align: center;
+  font-family: IrishGrover-Regular;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 308px;
+  height: 63px;
+  flex-shrink: 0;
 }
 
-.profile-container img[name="logo-message"]{
-    width: 244px;
-    height: 200px;
-    flex-shrink: 0;
-    margin-left: 390px;
+.profile-container img[name='logo-message'] {
+  height: 170px;
+  flex-shrink: 0;
+  margin-left: 390px;
 }
 
 .isi-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 20px;
-    border-radius: 10px;
-    color: #FFEE32;
-    font-family: IrishGrover-Regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffee32;
+  font-family: IrishGrover-Regular;
 }
 
 .user-profile {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    color: #FFEE32;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  color: #ffee32;
 }
 
-/* .isi-container span {
-    font-size: 32px;
-    text-align: center;
-} */
-
-.user-profile span{
-    color: #FFEE32;
-    width: 938px;
-    height: 117px;
-text-align: center;
-font-family: IrishGrover-Regular;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-background: black;
-margin-top: 20px;
-border: 1px solid black;
-text-align: center;
+.user-profile span {
+  color: #ffee32;
+  width: 938px;
+  text-align: center;
+  font-family: IrishGrover-Regular;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: black;
+  margin-top: 20px;
+  border: 1px solid black;
+  text-align: center;
 }
 
-.user-profile input[type="submit"]{
-    width: 420px;
-    height: auto;
-    padding: 13px 10px 12px 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 13px;
-    box-sizing: border-box;
-    border: 1px solid #FFEE32;
-    border-radius: 4px;
-    font-family: IrishGrover-Regular;
-    background-color: #FFEE32;
-    color: black;
-    font-size: 24px;
-    margin-top: 300px;
+.editBtn {
+  width: 400px;
+  height: auto;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid #ffee32;
+  border-radius: 4px;
+  font-family: IrishGrover-Regular;
+  background-color: #ffee32;
+  color: black;
+  font-size: 1.2rem;
+  margin-top: 3rem;
 }

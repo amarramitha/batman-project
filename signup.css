@@ -1,116 +1,106 @@
 @font-face {
-    font-family: IrishGrover-Regular;
-    src: url(Irish_Grover/IrishGrover-Regular.ttf);
+  font-family: IrishGrover-Regular;
+  src: url(Irish_Grover/IrishGrover-Regular.ttf);
 }
 
 body {
-    font-family: IrishGrover-Regular;
-    color: #FFEE32;
-    margin: 0;
-    padding: 0; 
-    height: auto;
-    /* overflow: hidden; */
+  font-family: IrishGrover-Regular;
+  color: #ffee32;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
 }
 .container {
-    display: flex;
+  display: flex;
 }
 .signup-container {
-    display: flex;
-    background: #000;
-    width: 50%;
-    height: 1024px;
-    /* justify-content: center;
-    align-items: center; */
+  background: #000;
+  width: 626px;
+  max-height: 100vh;
 }
 .image-container {
-    width: 814px;
-    height: auto;
+  width: 814px;
+  height: auto;
 }
 .image-container img {
-    width: 814px;
-    height: 1024px;
-    box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
 }
-#logo{
-    width: 303px;
-    height: 146px;
-    margin-bottom: 20px;
-    
+#logo {
+  width: 10rem;
+  margin-bottom: 10px;
+  margin-top: 50px;
 }
 .signup-form {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    background: black;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background: black;
 }
 
 .signup-form h2 {
-    color: #FFEE32;
-    text-align: center;
-    font-family: IrishGrover-Regular;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  color: #ffee32;
+  text-align: center;
+  font-family: IrishGrover-Regular;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* margin-top: 15px; */
+  margin-bottom: 15px;
 }
 
 .signup-form span {
-    /* display: block; */
-    margin-bottom: 15px;
-    color: #FFEE32;
-    font-size: 32px;
-    font-family: IrishGrover-Regular;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-style: normal;
-    line-height: normal;
-    text-align: left;
+  /* display: block; */
+  margin-bottom: 15px;
+  color: #ffee32;
+  font-size: 1rem;
+  font-family: IrishGrover-Regular;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-style: normal;
+  line-height: normal;
+  text-align: left;
 }
 
-.signup-form input[type="text"], input[type="password"], input[type="email"] {
-    width: 420px;
-    height: 43px;
-    padding: 13px, 10px, 13px, 10px;
-    margin-bottom: 15;
-    box-sizing: border-box;
-    background-color: black;
-    color: #FFEE32;
-    border: 1px solid #FFEE32;
-    gap: 13px;
-    max-width: 100%;
-    font-family: IrishGrover-Regular;
+.signup-form input[type='text'],
+input[type='password'],
+input[type='email'] {
+  width: 320px;
+  height: 1.5rem;
+  padding: 13px, 10px, 13px, 10px;
+  box-sizing: border-box;
+  background-color: black;
+  color: #ffee32;
+  border: 1px solid #ffee32;
+  max-width: 100%;
+  font-family: IrishGrover-Regular;
 }
 
-.signup-form input[type="submit"] {
-    background-color: #FFEE32; 
-    color: black;
-    cursor: pointer;
-    font-family: IrishGrover-Regular;
-    font-size: 18px;
-    width: 420px;
-    height: 43px;
-    padding: 13px, 10px, 13px, 10px;
-    margin-top: 70px;
-    margin-bottom: 50px;
-    box-sizing: border-box;
+.signup-form input[type='submit'] {
+  background-color: #ffee32;
+  color: black;
+  cursor: pointer;
+  font-family: IrishGrover-Regular;
+  font-size: 18px;
+  width: 320px;
+  height: 2.5rem;
+  padding: 13px, 10px, 13px, 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
 }
-
-/* .login-form input[type="submit"]:hover {
-    background-color: #FFD700; /* Lighter yellow on hover
-} */
 
 #have-account {
-    margin-top: 10px;
-    font-size: 18px;
-    text-align: center;
-    color: white;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
 }
 
 a {
-    color: #FFEE32;
+  color: #ffee32;
 }

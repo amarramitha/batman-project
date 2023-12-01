@@ -1,117 +1,123 @@
 @font-face {
-    font-family: IrishGrover-Regular;
-    src: url(Irish_Grover/IrishGrover-Regular.ttf);
+  font-family: IrishGrover-Regular;
+  src: url(Irish_Grover/IrishGrover-Regular.ttf);
 }
 
 body {
-    font-family: IrishGrover-Regular;
-    color: #FFEE32;
-    margin: 0;
-    padding: 0; 
-    height: auto;
-    background: black;
+  font-family: IrishGrover-Regular;
+  color: #ffee32;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  background: black;
 }
 
 .profile-container {
-    width: auto;
-    height: 1024px;
+  width: auto;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #logo {
-    width: 313px;
-    height: 146px;
-    flex-shrink: 0;
-    display: flex;
-    margin-top: 33px;
-    margin-left: 38px;
+  height: 100px;
+  flex-shrink: 0;
+  display: flex;
+  margin-top: 33px;
+  margin-left: 38px;
 }
 
-h2{
-    color: #FFEE32;
-    text-align: center;
-    font-family: IrishGrover-Regular;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 408px;
-    height: 63px;
-    flex-shrink: 0;
+h2 {
+  color: #ffee32;
+  text-align: center;
+  font-family: IrishGrover-Regular;
+  font-size: 2.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 408px;
+  height: 63px;
+  flex-shrink: 0;
 }
 .edit-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .edit-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 20px;
-    border-radius: 10px;
-    color: #FFEE32;
-    font-family: IrishGrover-Regular;
-}
-
-.edit-form img {
-    width: 225px;
-    height: 204px;
-    flex-shrink: 0;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #ffee32;
+  font-family: IrishGrover-Regular;
 }
 
 #kolom1 {
-    margin-top: 15px;
-    font-family: IrishGrover-Regular;
-    font-size: 32px;
+  margin-top: 10px;
+  font-family: IrishGrover-Regular;
+  font-size: 1.5rem;
 }
 
 .edit-form input {
-    width: 420px;
-    height: auto;
-    padding: 13px 10px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    margin-left: 20px;
-    box-sizing: border-box;
-    border: 1px solid #FFEE32;
-    border-radius: 4px;
-    font-family: IrishGrover-Regular;
-    background-color: black;
-    color: #FFEE32;
-    font-size: 24px;
+  width: 420px;
+  height: auto;
+  padding: 13px 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ffee32;
+  border-radius: 4px;
+  font-family: IrishGrover-Regular;
+  background-color: black;
+  color: #ffee32;
+  font-size: 1.5rem;
 }
 /* .edit-form input[type="text"], [type="email"]{
     display: flex;
 } */
-.edit-form input[type="submit"]{
-    width: 136px;
-    padding: 13px 10px 12px 10px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
+.edit-form input[type='submit'] {
+  width: 136px;
+  padding: 13px 10px 12px 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
-.edit-form input[name="bio"]{
-    /* display: flex; */
-    width: 420px;
-    height: 152px;
-    padding: 13px 10px;
-    align-items: center;
-    gap: 13px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    border: 1px solid #FFEE32;
+.edit-form input[name='bio'] {
+  /* display: flex; */
+  width: 420px;
+  height: 152px;
+  padding: 13px 10px;
+  align-items: center;
+  gap: 13px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #ffee32;
 }
-.edit-form input[name="cancel"]{
-    background: white;
-    border-radius: 6px;
-    color: black;
+.cancel {
+  padding: 5px 14px;
+  text-decoration: none;
+  background: white;
+  border-radius: 6px;
+  color: black;
+  width: 420px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ffee32;
+  border-radius: 4px;
+  font-family: IrishGrover-Regular;
+  font-size: 1.5rem;
 }
-.edit-form input[name="submit"]{
-    background: #FFEE32;
-    border-radius: 6px;
-    color: black;
-    /* margin-left: 20px; */
+.edit-form input[name='submit'] {
+  padding: 5px 3px;
+  background: #ffee32;
+  border-radius: 6px;
+  color: black;
+  cursor: pointer;
+  /* margin-left: 20px; */
 }
